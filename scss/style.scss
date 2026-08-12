@@ -389,3 +389,24 @@ details {
     }
   }
 }
+
+.sec_cont {
+h2 {
+  position: relative;
+  margin-bottom: 3.5rem;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 28px;
+
+  &:before {
+  position: absolute;
+  bottom: -10px;
+  left: calc(50% - 30px);
+  width: 60px;
+  height: 5px;
+  content: '';
+  border-radius: 3px;
+  background: #908f8f;
+    }
+  }
+}
